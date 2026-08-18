@@ -1,0 +1,62 @@
+/* 全ページ共通スタイル */
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 0 auto;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.index
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: solid 1px gray;
+}
+
+#logo {
+  width: 120px;
+  margin: 20px auto 0 auto;
+}
+
+#nav-pc {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.menu-button {
+  display: flex;
+  gap: 15px;
+}
+
+.menu-button li{
+  font-size: 13px;
+}
+
+main{
+  width: 100%;
+  margin: 50px auto 0 auto;
+}
+
+#fv {
+  display: flex;
+  gap: 30px;
+}
+
+.main-message {
+  width: 50%;
+}
+
+footer {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
