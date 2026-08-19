@@ -1,7 +1,7 @@
 /* 全ページ共通スタイル */
 body {
   font-family: "Raleway", sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   width: 100%;
   max-width: 1000px;
   margin: 0 auto 0 auto;
@@ -12,7 +12,10 @@ body {
   margin: 0 auto;
 }
 
-.index
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
 
 header {
   width: 100%;
@@ -53,6 +56,49 @@ main{
 
 .main-message {
   width: 50%;
+}
+
+#item-name {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 15px 0;
+}
+
+#item-details {
+  margin-top: 20px;
+  width: 100%;
+}
+
+#price {
+  margin-top:30px;
+}
+
+#order-list {
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+
+.order-list_tableheader {
+  padding: 10px;
+  text-align: center;
+  border-bottom: solid 1px #ddd;
+  border-right: solid 1px #ddd;
+}
+
+.order-list_table-cell {
+  padding: 10px;
+  text-align: center;
+  border-right: solid 1px #ddd;
+  border-bottom: solid 1px #ddd;
+}
+
+.order-number {
+  padding: 10px;
+}
+
+.quantity {
+  width: 180px;
+  height: 28px;
 }
 
 footer {
