@@ -164,3 +164,19 @@ footer {
   text-align: center;
   font-size: 12px;
 }
+
+/* SP用スタイル */
+@media screen and (max-width: 896px) {
+
+  #fv {
+    display: block;
+  }
+
+  main {
+    margin: 0;
+  }
+
+  #main-message2 {
+    margin: 20px 20px 0;
+  }
+}
