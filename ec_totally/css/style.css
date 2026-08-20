@@ -38,11 +38,11 @@ header {
   gap: 15px;
 }
 
-.menu-button li{
+.menu-button li {
   font-size: 13px;
 }
 
-main{
+main {
   margin: 50px auto 0;
 }
 
@@ -67,7 +67,7 @@ main{
 }
 
 #price {
-  margin-top:30px;
+  margin-top: 30px;
 }
 
 #order-list {
@@ -126,7 +126,7 @@ main{
 
 #addbutton {
   width: 100%;
-  background-color:dimgray;
+  background-color: dimgray;
   text-align: center;
   color: #ffffff;
   padding: 15px 0;
@@ -150,7 +150,6 @@ main{
 
 .table-size_header {
   background-color: #e3e2e2;
-
 }
 
 .table-size_size {
@@ -167,6 +166,15 @@ footer {
 
 /* SP用スタイル */
 @media screen and (max-width: 896px) {
+  #nav-pc {
+    overflow-x: auto;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+
+  .menu-button {
+    flex-shrink: 0;
+  }
 
   #fv {
     display: block;
