@@ -17,25 +17,25 @@
 
 <body>
   <header>
-  <div class="wrapper">
-    <div id="logo">
-      <a href="index.html"><img src="img/logo.svg" alt="TOTALLY"></a>
+    <div class="wrapper">
+      <div id="logo">
+        <a href="index.html"><img src="img/logo.svg" alt="TOTALLY"></a>
+      </div>
+      <nav id="nav-pc">
+        <ul class="menu-button">
+          <li>ALL</li>
+          <li>NEW</li>
+          <li>VINTAGE</li>
+          <li>CATEGORY</li>
+          <li>LOOKBOOK</li>
+          <li>BLOG</li>
+        </ul>
+        <ul class="menu-button">
+          <li>LOGIN</li>
+          <li>CONTACT</li>
+        </ul>
+      </nav>
     </div>
-    <nav id="nav-pc">
-      <ul class="menu-button">
-        <li>ALL</li>
-        <li>NEW</li>
-        <li>VINTAGE</li>
-        <li>CATEGORY</li>
-        <li>LOOKBOOK</li>
-        <li>BLOG</li>
-      </ul>
-      <ul class="menu-button">
-        <li>LOGIN</li>
-        <li>CONTACT</li>
-      </ul>
-    </nav>
-  </div>
   </header>
 
   <main>
@@ -54,39 +54,41 @@
           <p id="price">&#165;9,999 +tax</p>
           <table id="order-list">
             <tr>
-              <th class="order-list_tableheader">Color</th>
-              <th class="order-list_tableheader">Size</th>
+              <th class="order-list_color">Color</th>
+              <th class="order-list_size">Size</th>
               <th class="order-list_tableheader"></th>
             </tr>
             <tr>
-              <td class="order-list_table-cell">White</td>
-              <td class="order-list_table-cell">S</td>
-              <td class="order-number">
+              <td class="list-cell_s">White</td>
+              <td class="list-cell_s">S</td>
+              <td class="list-cell_s_quantity">
                 <select class="quantity" name="quantity_s">
                   <option value="1">1</option>
                 </select>
               </td>
             </tr>
             <tr>
-              <td class="order-list_table-cell">White</td>
-              <td class="order-list_table-cell">M</td>
-              <td class="order-number">
+              <td class="list-cell_m">White</td>
+              <td class="list-cell_m">M</td>
+              <td class="list-cell_m_quantity">
                 <select class="quantity" name="quantity_m">
                   <option value="1">1</option>
                 </select>
               </td>
             </tr>
             <tr>
-              <td class="order-list_table-cell">White</td>
-              <td class="order-list_table-cell">L</td>
-              <td class="order-number">
+              <td class="list-cell_l">White</td>
+              <td class="list-cell_l">L</td>
+              <td class="list-cell_l_quantity">
                 <select class="quantity" name="quantity_l">
                   <option value="1">1</option>
                 </select>
               </td>
             </tr>
           </table>
-          <a id="tocart" href="index.html">ADD TO ADD</a>
+          <div id="addbutton">
+            <a id="tocart" href="index.html">ADD TO ADD</a>
+          </div>
           <table id="size-detals">
             <tr>
               <th class="size-list tableheader">Size</th>
